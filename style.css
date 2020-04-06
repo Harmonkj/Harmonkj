@@ -1,3 +1,8 @@
+body
+{
+  background-color: gray;
+}
+
 a {
   text-decoration: none;
 }
@@ -20,9 +25,9 @@ li {
   background: black;
     display: block;
     float: right;
-    padding: 5rem;
+    padding: 2rem;
     height: 1px;
-  width: 165px;
+  width: 265px;
   text-align: center;
     margin-bottom: 10px;
     position: relative;
@@ -45,14 +50,14 @@ li:focus-within a {
 }
 
 ul li ul {
-    background: blue;
+    background: darkorange;
     visibility: hidden;
   opacity: 0;
   min-width: 5rem;
     position: absolute;
   transition: all 0.5s ease;
   margin-top: 1rem;
-    left: 0;
+    left: 215px;
   display: none;
 }
 
